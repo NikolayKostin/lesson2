@@ -39,11 +39,12 @@
     }
 }
 
-@mixin grid($cols:12){
+@mixin grid($cols){
     @for $i from 1 through $cols{
-        .col-md-#{$i}{
-            width: 100%/($cols/$i);
+        .col-#{$namediv}{
+            width: 94%/($cols);
             float: left;
+            padding: 1%;
         }
     }
 }
