@@ -1,6 +1,13 @@
 $color:#09c;
 $bgc:#fafafa;
 $brdc:#eaeaea;
-$pclass:"";
-$chclass:"";
-$namediv:"person";
+$parent:"cards";
+$child:"council";
+//$cols: 4;
+$width: 100%;
+$breakpoints: (
+  x-small:350px,
+  small: 767px,
+  medium: 992px,
+  large: 1200px
+);
